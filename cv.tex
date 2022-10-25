@@ -1,25 +1,4 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+% TEMPLATE DE CURRICULO
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT DEFINITION
@@ -49,6 +28,9 @@
 %----------------------------------------------------------------------------------------
 \usepackage{url}
 \usepackage{parskip} 	
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage[portuguese]{babel}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -116,12 +98,20 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{João Lucas Ferreira Zuliani} \\[7.5pt]
+\href{https://github.com/joaozuliani}{\raisebox{-0.05\height}\faGithub\ joaozuliani} \ $|$ \ 
+\href{https://www.linkedin.com/in/joão-lucas-zuliani/}{\raisebox{-0.05\height}\faLinkedin\ joão-lucas-zuliani} \ $|$ \ 
+\href{mailto:joao.lucas.zuliani@usp.br}{\raisebox{-0.05\height}\faEnvelope \ joao.lucas.zuliani@usp.br} \ $|$ \ 
+\href{tel:+5519982391596}{\raisebox{-0.05\height}\faMobile \ +55 19 98239-1596} \\
+\textcolor{blue}{\raisebox{-0.05\height}\faGlobe \ São Carlos, SP} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Formação}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+2019 - presente & \textbf{Bacharelado em Engenharia Mecatrônica}, Universidade de São Paulo. \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -129,70 +119,106 @@
 %----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+%\section{Interesses}
+%Estudante de Engenhariua Mecatrôncia.
 
 %Experience
-\section{Work Experience}
+\section{Experiência}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Jan 2021 - present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Mar 2019 - Jan 2021 \\[3.75pt]
+\textbf{Coordenador Geral, Secretaria Acadêmica da Engenharia Mecatrônica} & \hfill Set 2021 - Out 2022 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] long long line of blah blah that will wrap when the table fills the column width
-        \item[--] again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+        \item[--] Atuação como liderança e organização da secretaria, coordenando os gestores e membros.
+        \item[--] Desenvolvimento de soft skills para comunicação com professores, outras secretarias, instituições e alunos.
+        \item[--] Gerenciamento da parte de comunicação da secretaria.
+        \item[--] Atuação direta em eventos de cunho social e cultural realizado pelos alunos da engenharia mecatrônica.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Gestor, Secretaria Acadêmica da Engenharia Mecatrônica} & \hfill Jan 2020 - Set 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Liderança do núcleo de esportes da secretaria.
+        \item[--] Organização, planejamento e realização de eventos de cunho esportivo para os alunos da universidade.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Membro, Secretaria Acadêmica da Engenharia Mecatrônica} & \hfill Mar 2019 - Jun 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Desenvolvimento e venda de produtos para os estudantes da engenharia mecatrônica do campus.
+        \item[--] Contato com fornecedores e empresas que confeccionam produtos personalizados.
     \end{itemize}
     \end{minipage}
 }
 \end{tabularx}
 
 %Projects
-\section{Projects}
+\section{Projetos}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\textbf{Iniciação Científica, LegRo Group - Laboratório de Robótica, USP} & \hfill Set 2022 - presente\\[3pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Aplicação de novas métricas no controle de um exoesqueleto de membros inferiores utilizado na reabilitação de pacientes com lesões.
+        \item[--] Estudo sobre a margem de passividade da órtese utilizada.
+        \item[--] Utilização de ferramentas e softwares como: \textbf{MATLAB, LaTeX, ROS, GitHub, Notion}.
+        \item[--] Estudos sobre \textbf{Robótica, Controle, Desenvolvimento, Programação}.
+    \end{itemize}
+    \end{minipage}
+    }
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+%\section{Cursos e Certificados}
+%\begin{refsection}[citations.bib]
+%\nocite{*}
+%\printbibliography[heading=none]
+%\end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Cursos e Certificados}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Python} &  \normalsize{Minicurso realizado pelo Grupo SEMATRON.}\\
+\textbf{MATLAB}  &  \normalsize{Minicurso realizado pelo Grupo SEMATRON.}\\
+
 \end{tabularx}
 
+\begin{multicols}{2}
+\section{Interesses}
+\begin{tabularx}{\linewidth}{@{}l l@{}}
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Conhecer e aprender novas linguagens de programação.
+        \item[--] Aprimorar os conhecimentos nas linguagens já conhecidas.
+        \item[--] Obter experiências na área de desenvolvimento.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}
+\section{Idiomas}
+\begin{tabularx}{\linewidth}{@{}l l@{}}
+\textbf{Português} & \normalsize{Fluente.}\\
+\textbf{Inglês} & \normalsize{Avançado.}\\
+\textbf{Espanhol} & \normalsize{Básico.}\\
+\end{tabularx}
+\end{multicols}
+
 \vfill
-\center{\footnotesize Last updated: \today}
+\center{\footnotesize Úlltima atualização: \today}
 
 \end{document}
